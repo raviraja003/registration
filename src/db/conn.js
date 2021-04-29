@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost:27017/registrationApp", {
+mongoose.connect("mongodb+srv://register:pass123@cluster0.bihao.mongodb.net/registrationApp?retryWrites=true&w=majority", {
     useNewUrlParser:true,
     useUnifiedTopology:true,
     useCreateIndex:true
